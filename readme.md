@@ -22,7 +22,7 @@ Classes and prototypes
 
 **Floats**: `rw-fl` (left), `rw-fr` (right)
 
-**Columns/Cells**: `rw-100`, `rw-90`, `rw-80`, `rw-75`, `rw-70`, `rw-70`, `rw-66`, `rw-60`, `rw-50`, `rw-40`, `rw-33`, `rw-30`, `rw-25`, `rw-20`, `rw-15`, `rw-10`
+**Columns/Cells**: `rw-100`, `rw-90`, `rw-80`, `rw-75`, `rw-70`, `rw-66`, `rw-60`, `rw-50`, `rw-40`, `rw-33`, `rw-30`, `rw-25`, `rw-20`, `rw-15`, `rw-10`
 
 Presets
 -------
@@ -30,10 +30,10 @@ Presets
 The four layouts sizes are by default:
 
   - 1080px (screen size > 1096px)
-  - 960px (screen size between 1096 and 720px)
-  - 720px (screen size between 976px and 736px)
-  - flexible (screen size > 736px)
+  - 960px (screen size between 1096 and 972px)
+  - 640px (screen size between 972px and 640px)
+  - flexible (mobile devices or screen size > 640px)
 
-These values and the sizes of the layout cells can all be configures in the file `runway-config.cssp`.
+These values and the sizes of the layout cells can all be configured in the file `runway-config.cssp`.
 
   [1]: http://github.com/SirPepe/Turbine
