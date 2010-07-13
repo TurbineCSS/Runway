@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Runway demo page</title>
+		<link rel="stylesheet" type="text/css" href="../cssp/css.php?files=../Runway/runway.cssp">
+		<style>
+			.rw-wrapper { margin:0 auto; }
+			.rw-row > div div { background:#FFF; padding:16px; }
+			.rw-row > div { background:#F00; }
+			.rw-row > div + div { background:#FF0; }
+			.rw-row > div + div + div { background:#F0F; }
+			.rw-row > div + div + div + div { background:#0F0; }
+			body:before { content:"Default layout"; }
+			@media screen and (min-width: 1096px){
+				body:before { content:"Widescreen layout"; }
+			}
+			@media screen and (max-width: 972px){
+				body:before { content:"Tablet layout"; }
+			}
+			@media handheld and (max-device-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 640px){
+				body:before { content:"Mobile layout"; }
+			}
+		</style>
+	</head>
+	<body>
+
+
+
+<div class="rw-wrapper">
+
+
+
+<div class="rw-row">
+	<div class="rw-100"><div>100</div></div>
+</div>
+
+<div class="rw-row">
+	<div class="rw-33"><div>33</div></div>
+	<div class="rw-66"><div>66</div></div>
+</div>
+
+<div class="rw-row">
+	<div class="rw-50"><div>50</div></div>
+	<div class="rw-25"><div>25</div></div>
+	<div class="rw-25"><div>25</div></div>
+</div>
+
+<div class="rw-row">
+	<div class="rw-20"><div>20</div></div>
+	<div class="rw-20"><div>20</div></div>
+	<div class="rw-20"><div>20</div></div>
+	<div class="rw-40"><div>40</div></div>
+</div>
+
+<div class="rw-row">
+	<div class="rw-40"><div>40</div></div>
+	<div class="rw-30"><div>30</div></div>
+	<div class="rw-30"><div>30</div></div>
+</div>
+
+<div class="rw-row">
+	<div class="rw-90"><div>90</div></div>
+	<div class="rw-10"><div>10</div></div>
+</div>
+
+<div class="rw-row">
+	<div class="rw-20"><div>20</div></div>
+	<div class="rw-80"><div>80</div></div>
+</div>
+
+<div class="rw-row">
+	<div class="rw-60"><div>60</div></div>
+	<div class="rw-15"><div>15</div></div>
+	<div class="rw-15"><div>15</div></div>
+	<div class="rw-10"><div>10</div></div>
+</div>
+
+<div class="rw-row">
+	<div class="rw-70"><div>70</div></div>
+	<div class="rw-30"><div>30</div></div>
+</div>
+
+<div class="rw-row">
+	<div class="rw-75"><div>75</div></div>
+	<div class="rw-25"><div>25</div></div>
+</div>
+
+
+
+</div>
+
+
+
+	</body>
+</html>
