@@ -22,7 +22,12 @@ Classes and prototypes
 
 **Floats**: `rw-fl` (left), `rw-fr` (right)
 
-**Columns/Cells**: `rw-100`, `rw-90`, `rw-80`, `rw-75`, `rw-70`, `rw-66`, `rw-60`, `rw-50`, `rw-40`, `rw-33`, `rw-30`, `rw-25`, `rw-20`, `rw-15`, `rw-10`
+**Columns/Cells**: `rw-100`, `rw-90`, `rw-80`, `rw-75`, `rw-70`, `rw-66`,, `rw-65`, `rw-60`, `rw-50`, `rw-40`, `rw-33`, `rw-30`, `rw-25`, `rw-20`, `rw-15`, `rw-10`
+
+**Extra spacing**: `rw-esl` (left), `rw-esr` (right)
+
+**Remove spacing**: `rw-nsl` (left), `rw-nsr` (right)
+
 
 Presets
 -------

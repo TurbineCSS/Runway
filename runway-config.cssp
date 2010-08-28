@@ -1,7 +1,10 @@
 // Runway configuration options
 @constants
 	// Layout variables
-	rw-padding:8px                             // Layout cell padding
+	rw-padding-top:8px
+	rw-padding-right:8px
+	rw-padding-bottom:8px
+	rw-padding-left:8px
 	// Layout width
 	rw-layout-default:960px                    // Default layout width
 	rw-layout-wide:1080px                      // Wide layout width
@@ -14,6 +17,7 @@
 	rw-layout-cell-default-75:75%
 	rw-layout-cell-default-70:70%
 	rw-layout-cell-default-66:66.66666%
+	rw-layout-cell-default-65:65%
 	rw-layout-cell-default-60:60%
 	rw-layout-cell-default-50:50%
 	rw-layout-cell-default-40:40%
@@ -30,6 +34,7 @@
 	rw-layout-cell-wide-75:75%
 	rw-layout-cell-wide-70:70%
 	rw-layout-cell-wide-66:66.66666%
+	rw-layout-cell-wide-65:65%
 	rw-layout-cell-wide-60:60%
 	rw-layout-cell-wide-50:50%
 	rw-layout-cell-wide-40:40%
@@ -46,6 +51,7 @@
 	rw-layout-cell-narrow-75:75%
 	rw-layout-cell-narrow-70:70%
 	rw-layout-cell-narrow-66:66.66666%
+	rw-layout-cell-narrow-65:65%
 	rw-layout-cell-narrow-60:60%
 	rw-layout-cell-narrow-50:50%
 	rw-layout-cell-narrow-40:40%
@@ -62,6 +68,7 @@
 	rw-layout-cell-mobile-75:100%
 	rw-layout-cell-mobile-70:100%
 	rw-layout-cell-mobile-66:100%
+	rw-layout-cell-mobile-65:100%
 	rw-layout-cell-mobile-60:100%
 	rw-layout-cell-mobile-50:100%
 	rw-layout-cell-mobile-40:100%

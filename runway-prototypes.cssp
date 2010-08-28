@@ -14,7 +14,10 @@
 	display:block
 	float:left
 	box-sizing:border-box
-	padding:$rw-padding
+	padding-top:$rw-padding-top
+	padding-right:$rw-padding-right
+	padding-bottom:$rw-padding-bottom
+	padding-left:$rw-padding-left
 
 // Row and wrapper clearfix
 ?rw-clearfix
@@ -43,6 +46,9 @@
 ?rw-70
 	extends:?rw-cell
 	width:70%
+?rw-65
+	extends:?rw-cell
+	width:65%
 ?rw-66
 	extends:?rw-cell
 	width:66.66666%
@@ -79,3 +85,15 @@
 	float:left
 ?rw-fr
 	float:right
+
+// Elements with extra spacing left or right
+?rw-esl
+	padding-left:$rw-padding-left
+?rw-esr
+	padding-right:$rw-padding-right
+
+// Elements with no spacing left or right
+?rw-nsl
+	padding-left:0 !important
+?rw-nsr
+	padding-right:0 !important
