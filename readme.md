@@ -4,6 +4,12 @@ Runway
 A simple, configurable, adaptive framework for [Turbine][1]. Doesn't support IE6 and never will. Runway provides an adaptive layout that matches the users screen width in four steps. Each of the step is configurable in detail so you can easily change the order of your layout columns the match the available space on the screen.
 
 
+Warning
+-------
+
+Runway is work in progress. Because of a bug in Turbine it doesn't work perfectly in IE6 and 7 for now.
+
+
 Usage
 -----
 
