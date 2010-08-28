@@ -9,8 +9,8 @@ Usage
 
 Configure the layout cell padding in line 4 of `runway-config.cssp` and then either
 
-  - Use `runway.cssp` like any other css framework - include the file and use the classes described below
-  - or load `runway-prototypes.cssp` into your style file using the `@load` syntax and extend the protypes
+  - Use `runway.cssp` like any other css framework - include the file and use the classes described below...
+  - ...or load `runway-prototypes.cssp` into your style file using the `@load` syntax and extend the protypes (same names as the classes, prefixed with `?`)
 
 
 Classes and prototypes
