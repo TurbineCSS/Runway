@@ -12,7 +12,7 @@
 	padding:0
 
 // Clear rows and wrapper
-.rw-row:after, .rw-wrapper:after
+.rw-row:after, .rw-wrapper:after, .rw-clearfix:after
 	extends:?rw-clearfix
 
 // Cells
